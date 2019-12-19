@@ -2,15 +2,15 @@ package com.learning.java.functional;
 
 import java.util.Scanner;
 
-public class BubbleSort <Int>{
+public class BubbleSort <Inte>{
 
-    public void Sortarray(Int arr[]) {
+    public void Sortarray(Inte arr[]) {
 
         int n = arr.length;
-        Int temp=arr[0];
+        Inte temp=arr[0];
         for (int i=0;i<n-1;i++) {
             for(int j=0;j<n-i-1;j++) {
-                if (arr[j] > arr[j+1]) {
+                if (arr[j])>arr[j+1]) {
                     temp=arr[j];
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;
