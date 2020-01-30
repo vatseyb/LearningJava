@@ -2,7 +2,7 @@ package com.learning.java.concepts;
 
 public class CompositionDemo {
 
-    public static void main(String... houseComposition) {
+    public static void main(String[] houseComposition) {
         House houseObj = new House(new Bedroom(), new LivingRoom());
         houseObj.livingRoom.lRoomDetails();
         houseObj.bedroom.bRoomDetails();
